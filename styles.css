@@ -7,8 +7,8 @@
     --text-main: #2c2c2c;
     --bg-main: #ffffff;
     --bg-alt: #f8f9fa;
-    --font-heading: 'Cinzel', serif; /* Elegant, heraldry-appropriate font */
-    --font-body: 'Inter', -apple-system, sans-serif; /* High-tech agency font */
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
 }
 
 * {
@@ -141,6 +141,9 @@ h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .brand-card::before {
@@ -155,15 +158,28 @@ h2 {
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+/* New CSS class for the autofitting brand logos */
+.brand-logo {
+    width: 100%;
+    max-height: 180px; /* Prevents the image from being overwhelmingly large */
+    object-fit: contain; /* Scales the image to fit without stretching */
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+}
+
 .brand-card h3 {
     font-family: var(--font-heading);
     margin-bottom: 1rem;
     color: var(--text-main);
 }
 
+.brand-card p {
+    margin-bottom: auto; /* Pushes the button to the bottom */
+}
+
 .brand-card a {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 0.5rem 1.5rem;
     background: var(--gold);
     color: white;
@@ -224,7 +240,6 @@ h2 {
 @media screen and (max-width: 768px) {
     body { flex-direction: column; }
     
-    /* Convert Sidebar to Swipeable Top Menu */
     .sidebar {
         width: 100%;
         height: auto;
@@ -242,17 +257,15 @@ h2 {
     .brand-profile img { width: 40px; height: 40px; border-width: 1px; margin-bottom: 0; margin-right: 10px; }
     .brand-profile h2 { font-size: 1.1rem; white-space: nowrap; }
     
-    /* Horizontal Scrolling for Nav */
     .sidebar nav {
         flex-direction: row;
         overflow-x: auto;
         white-space: nowrap;
         gap: 0.5rem;
-        padding-bottom: 4px; /* for scrollbar */
+        padding-bottom: 4px;
         -webkit-overflow-scrolling: touch;
     }
     
-    /* Hide scrollbar for a cleaner look */
     .sidebar nav::-webkit-scrollbar { display: none; }
     .sidebar nav { -ms-overflow-style: none; scrollbar-width: none; }
 
@@ -267,7 +280,6 @@ h2 {
         border-bottom: 3px solid var(--gold);
     }
 
-    /* Main Content Adjustments */
     .main-content {
         margin-left: 0;
         width: 100%;
@@ -276,10 +288,8 @@ h2 {
     .banner-container { height: 150px; }
     .page-content { padding: 2rem 1.5rem; }
     
-    /* Typography scaling */
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
 
-    /* Vertical stacking for contact */
     .contact-wrapper { flex-direction: column; gap: 2rem; }
 }
