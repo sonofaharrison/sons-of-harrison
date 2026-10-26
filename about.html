@@ -1,48 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" data-crest="steel">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sons of Harrison | About Us</title>
-    <!-- Favicon Link -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Sons of Harrison</title>
+  <meta name="description" content="Honor. Strength. Endurance. Discover the heraldic symbolism, oak leaf motif, and generational values behind the Sons of Harrison coat of arms." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Sons of Harrison | Honor. Strength. Endurance.",
+    "url": "https://sonsofharrison.com/about.html",
+    "description": "Corporate heritage, coat of arms symbolism, and foundational values of Sons of Harrison.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Sons of Harrison",
+      "url": "https://sonsofharrison.com",
+      "knowsAbout": [
+        "Corporate Governance",
+        "Architectural Hardscaping",
+        "Quantitative Market Arbitrage",
+        "Authenticated Collectibles",
+        "Enterprise Artificial Intelligence Agents"
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
 
-    <aside class="sidebar">
-        <div class="brand-profile">
-            <img src="SoH_profile.jpg" alt="Sons of Harrison Profile Crest">
-            <h2>Sons of Harrison</h2>
+  <!-- STICKY COMMAND HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand-identity">
+        <div class="asset-frame-1x1">
+          <img
+            src="Harrison_Sons_Dark.jpg"
+            alt="Sons of Harrison Crest"
+            class="theme-brand-logo"
+            data-fallback-title="Sons of Harrison Crest"
+          />
         </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="brands.html">Family Brands</a>
-            <a href="about.html" class="active">About Us</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </aside>
+        <div class="brand-titles">
+          <span class="brand-eyebrow">Sovereign Holding Nexus</span>
+          <span class="brand-name">Sons of Harrison</span>
+        </div>
+      </a>
 
-    <main class="main-content">
-        <div class="banner-container">
-            <img src="SoH_banner.jpg" alt="Sons of Harrison Banner">
+      <button class="mobile-menu-btn" aria-expanded="false" aria-label="Toggle Navigation">☰ MENU</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="brands.html">Family Brands</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+
+      <div class="header-controls">
+        <button id="view-mode-toggle" class="control-btn" type="button">📱 Mobile View</button>
+        <button id="theme-toggle" class="control-btn" type="button">☀️ Light Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-container">
+
+    <!-- SPLIT-STAGE HERALDRY HERO -->
+    <section class="hero-section">
+      <div class="hero-copy-column">
+        <span class="eyebrow-badge">Heraldic Mandate // Sovereign Family Enterprise</span>
+        <h1>Honor. Strength. Endurance.</h1>
+        <p class="lead-copy">
+          The coat of arms of the <strong>Sons of Harrison</strong> is not merely a symbol; it is a declaration of our operational mandate. The golden and silver lions emblazoned upon our crest represent the courage to lead markets and the strength to protect our legacy.
+        </p>
+
+        <h2>The Oak Leaf Motif</h2>
+        <p style="margin-bottom: 1.5rem;">
+          Intertwined in our heritage is the timeless oak leaf pattern. It signifies our belief in steady, undeniable growth and endurance. Just as the oak withstands the turning of ages, our family of brands is architected to outlast market fluctuations and generational shifts.
+        </p>
+
+        <div class="cta-group">
+          <a href="brands.html" class="btn-primary">Inspect Subsidiary Brands →</a>
+          <a href="contact.html" class="btn-secondary">Connect With Leadership</a>
         </div>
-        <div class="page-content">
-            <h1>Honor. Strength. Endurance.</h1>
-            <p>The coat of arms of the <strong>Sons of Harrison</strong>[cite: 1] is not merely a symbol; it is a declaration of our operational mandate. The golden and silver lions emblazoned upon our crest represent the courage to lead markets and the strength to protect our legacy.</p>
-            <br>
-            <h2>The Oak Leaf Motif</h2>
-            <p>Intertwined in our heritage is the timeless oak leaf pattern. It signifies our belief in steady, undeniable growth and endurance. Just as the oak withstands the turning of ages, our family of brands is architected to outlast market fluctuations and generational shifts.</p>
-            <br>
-            <h2>Our Values</h2>
-            <ul>
-                <li style="margin-left: 20px; padding-bottom:10px;"><strong>Integrity First:</strong> Unwavering ethical standards in every transaction.</li>
-                <li style="margin-left: 20px; padding-bottom:10px;"><strong>Technological Mastery:</strong> Embracing state-of-the-art tools to maintain a premium agency advantage.</li>
-                <li style="margin-left: 20px;"><strong>Legacy Building:</strong> Developing assets and businesses that provide value for centuries, not just financial quarters.</li>
-            </ul>
+      </div>
+
+      <!-- 9:16 VERTICAL COAT OF ARMS STAGE WITH INDEPENDENT FINISH SWITCHER -->
+      <div class="hero-stage-column">
+        <div class="asset-frame-9x16">
+          <video
+            class="crest-brand-video"
+            src="Harrison_Sons_Cyber_Steel_9x16_Animated.mp4"
+            poster="Harrison_Sons_Cyber_Steel_9x16.jpg"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
-    </main>
+
+        <div class="crest-switcher-bar" role="group" aria-label="9:16 Coat of Arms Finish Selector">
+          <span class="crest-switcher-label">9:16 Crest Finish (Independent of Site Theme)</span>
+          <div class="crest-switcher-pills">
+            <button type="button" class="crest-switch-btn active" data-crest-target="steel">⚡ Steel</button>
+            <button type="button" class="crest-switch-btn" data-crest-target="dark">🌑 Dark</button>
+            <button type="button" class="crest-switch-btn" data-crest-target="light">☀️ Light</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANATOMY OF THE COAT OF ARMS -->
+    <section class="section-block">
+      <div class="section-header">
+        <span class="eyebrow-badge">Heraldic Architecture</span>
+        <h2>Anatomy of the Coat of Arms</h2>
+        <p class="lead-copy">
+          Every sculpted element within the Sons of Harrison emblem carries deliberate governance meaning across our operating companies.
+        </p>
+      </div>
+
+      <div class="brands-grid">
+        <article class="pillar-card" data-collapsible-card>
+          <span class="pillar-number">ELEMENT 01 // LEFT & RIGHT SUPPORTERS</span>
+          <h3>The Trio of Gold Lions & Silver Guardian</h3>
+          <div class="collapsible-content">
+            <p>
+              Flanking the left side of the shield are three overlapping, sculpted polished-gold rampant lions representing unified forward momentum, offensive market leadership, and brotherhood. Standing guard on the right is a singular, powerful brushed-silver rampant lion clasping the green oak branch—symbolizing vigilant stewardship, structural defense, and wisdom.
+            </p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+        </article>
+
+        <article class="pillar-card" data-collapsible-card>
+          <span class="pillar-number">ELEMENT 02 // CENTRAL ESCUTCHEON</span>
+          <h3>The Beveled Sky-Blue Enamel Shield</h3>
+          <div class="collapsible-content">
+            <p>
+              At the heart of the emblem rests a deep, beveled sky-blue enamel shield bearing three embossed golden lions in profile. The azure field denotes sovereign clarity, truth, and fidelity, serving as the immovable core that unites our physical and digital enterprises under one roof.
+            </p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+        </article>
+
+        <article class="pillar-card" data-collapsible-card>
+          <span class="pillar-number">ELEMENT 03 // SOVEREIGN HELM & CREST</span>
+          <h3>The Bronze-and-Steel Knight's Helm</h3>
+          <div class="collapsible-content">
+            <p>
+              Crowning the shield is a visor-down bronze-and-steel knight's helm topped by a sovereign coronet and a smaller silver lion bearing an oak branch. The helm represents strategic discipline, executive focus, and protection of proprietary intellectual and physical capital.
+            </p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+        </article>
+
+        <article class="pillar-card" data-collapsible-card>
+          <span class="pillar-number">ELEMENT 04 // INSCRIPTION & FOUNDATION</span>
+          <h3>The Extruded Gold & Silver Banner</h3>
+          <div class="collapsible-content">
+            <p>
+              Anchored beneath the shield is crisp white 3D lettering reading "Sons of" above bold, champagne-gold Old English blackletter typography reading "Harrison" with a sharp silver bevel outline—signifying that every subsidiary carries our family name as an explicit guarantee of excellence.
+            </p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- CORE VALUES -->
+    <section class="section-block" style="border-bottom: none;">
+      <div class="section-header">
+        <span class="eyebrow-badge">Code of Conduct</span>
+        <h2>Our Values</h2>
+        <p class="lead-copy">
+          Three foundational principles guide every partnership, acquisition, and client engagement across the Sons of Harrison enterprise.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <article class="pillar-card">
+          <span class="pillar-number">VALUE 01 // ETHICAL BEDROCK</span>
+          <h3>Integrity First</h3>
+          <p>Unwavering ethical standards, transparent governance, and honorable execution in every transaction, contract, and fiduciary relationship.</p>
+        </article>
+
+        <article class="pillar-card">
+          <span class="pillar-number">VALUE 02 // CONTINUOUS INNOVATION</span>
+          <h3>Technological Mastery</h3>
+          <p>Embracing state-of-the-art tools—from autonomous artificial intelligence and algorithmic modeling to modern structural engineering—to maintain a decisive agency advantage.</p>
+        </article>
+
+        <article class="pillar-card">
+          <span class="pillar-number">VALUE 03 // MULTI-GENERATIONAL HORIZON</span>
+          <h3>Legacy Building</h3>
+          <p>Developing tangible assets, enduring systems, and resilient businesses architected to provide compounding value across centuries, not merely single financial quarters.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- EXECUTIVE FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="brand-identity">
+        <div class="asset-frame-1x1">
+          <img
+            src="Harrison_Sons_Dark.jpg"
+            alt="Sons of Harrison Seal"
+            class="theme-brand-logo"
+            data-fallback-title="Sons of Harrison Seal"
+          />
+        </div>
+        <div class="brand-titles">
+          <span class="brand-eyebrow">Maryland, USA // 443-991-9896</span>
+          <span class="brand-name">Sons of Harrison</span>
+        </div>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="brands.html">Family Brands</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+
+      <p class="footer-copy">© 2026 Sons of Harrison. All Rights Reserved. info@sonsofharrison.com</p>
+    </div>
+  </footer>
 
 </body>
 </html>
