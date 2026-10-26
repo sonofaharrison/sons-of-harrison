@@ -108,27 +108,22 @@ html[data-view="mobile"] body {
   color: var(--text-main);
 }
 
-/* 1:1 Square Container Safeguard (Zero Edge Clipping) */
+/* 1:1 Square Logo (Unformatted & Full Scale) */
 .asset-frame-1x1 {
   aspect-ratio: 1 / 1;
-  width: 52px;
-  height: 52px;
-  background-color: var(--frame-1x1-bg);
-  border: 1.5px solid var(--gold);
-  border-radius: 10px;
+  width: 88px;
+  height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6%;
-  overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(197, 160, 89, 0.2);
 }
 
 .asset-frame-1x1 img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .brand-titles {
