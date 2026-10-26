@@ -1,42 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" data-crest="steel">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sons of Harrison | Home</title>
-    <!-- Favicon Link -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <!-- Premium Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sons of Harrison | Sovereign Holding Nexus</title>
+  <meta name="description" content="Sons of Harrison is the central holding nexus governing Harrison Hardscaping LLC, Harrison Arbitrage LLC, Harrison Collectibles, and Harrison AI Agents." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Sons of Harrison",
+    "url": "https://sonsofharrison.com",
+    "email": "info@sonsofharrison.com",
+    "telephone": "+1-443-991-9896",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "MD",
+      "addressCountry": "US"
+    },
+    "subOrganization": [
+      { "@type": "Organization", "name": "Harrison Hardscaping LLC", "url": "https://harrisonhardscaping.com" },
+      { "@type": "Organization", "name": "Harrison Arbitrage LLC", "url": "https://harrisonarbitrage.com" },
+      { "@type": "Organization", "name": "Harrison Collectibles", "url": "https://harrisoncollectibles.com" },
+      { "@type": "Organization", "name": "Harrison AI Agents", "url": "https://harrisonaiagents.com" }
+    ]
+  }
+  </script>
 </head>
 <body>
 
-    <aside class="sidebar">
-        <div class="brand-profile">
-            <img src="SoH_profile.jpg" alt="Sons of Harrison Profile Crest">
-            <h2>Sons of Harrison</h2>
+  <!-- STICKY COMMAND HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand-identity">
+        <div class="asset-frame-1x1">
+          <img
+            src="Harrison_Sons_Dark.jpg"
+            alt="Sons of Harrison Crest"
+            class="theme-brand-logo"
+            data-fallback-title="Sons of Harrison Crest"
+          />
         </div>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="brands.html">Family Brands</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </aside>
+        <div class="brand-titles">
+          <span class="brand-eyebrow">Sovereign Holding Nexus</span>
+          <span class="brand-name">Sons of Harrison</span>
+        </div>
+      </a>
 
-    <main class="main-content">
-        <div class="banner-container">
-            <img src="SoH_banner.jpg" alt="Sons of Harrison Oak & Heraldry Banner">
+      <button class="mobile-menu-btn" aria-expanded="false" aria-label="Toggle Navigation">☰ MENU</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="brands.html">Family Brands</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+
+      <div class="header-controls">
+        <button id="view-mode-toggle" class="control-btn" type="button">📱 Mobile View</button>
+        <button id="theme-toggle" class="control-btn" type="button">☀️ Light Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-container">
+
+    <!-- 9:16 EXECUTIVE SPLIT-STAGE HERO -->
+    <section class="hero-section">
+      <div class="hero-copy-column">
+        <span class="eyebrow-badge">Maryland, USA // Multi-Generational Enterprise</span>
+        <h1>A Legacy of Excellence. Architecting the Future.</h1>
+        <p class="lead-copy">
+          Welcome to <strong>Sons of Harrison</strong>, the central command nexus governing our diverse portfolio of specialized enterprises. Forged with the strength of lions and rooted deeply like the mighty oak, our family of brands represents an unwavering commitment to quality, innovation, and enduring value.
+        </p>
+        <p>
+          Operating as a modern executive holding company, Sons of Harrison oversees operations spanning architectural hardscaping, quantitative market arbitrage, authenticated collectibles, and autonomous artificial intelligence. We blend old-world honor with next-generation scalability.
+        </p>
+        <div class="cta-group">
+          <a href="brands.html" class="btn-primary">Explore Family Brands →</a>
+          <a href="contact.html" class="btn-secondary">Executive Inquiry</a>
         </div>
-        <div class="page-content">
-            <h1>A Legacy of Excellence</h1>
-            <p>Welcome to <strong>Sons of Harrison</strong>, the central nexus for our diverse portfolio of industry-leading enterprises. Forged with the strength of lions and rooted deeply like the mighty oak, our family of brands represents an unwavering commitment to quality, innovation, and enduring value.</p>
-            <br>
-            <h2>Driving the Future</h2>
-            <p>Operating as a modern, high-tech agency, Sons of Harrison oversees operations spanning architectural hardscaping, advanced market arbitrage, exclusive collectibles, and cutting-edge artificial intelligence. We blend old-world honor with next-generation scalability.</p>
+      </div>
+
+      <!-- 9:16 VERTICAL HERO STAGE WITH DECOUPLED CREST FINISH SWITCHER -->
+      <div class="hero-stage-column">
+        <div class="asset-frame-9x16">
+          <video
+            class="crest-brand-video"
+            src="Harrison_Sons_Cyber_Steel_9x16_Animated.mp4"
+            poster="Harrison_Sons_Cyber_Steel_9x16.jpg"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
-    </main>
+
+        <div class="crest-switcher-bar" role="group" aria-label="9:16 Coat of Arms Finish Selector">
+          <span class="crest-switcher-label">9:16 Crest Finish (Independent of Site Theme)</span>
+          <div class="crest-switcher-pills">
+            <button type="button" class="crest-switch-btn active" data-crest-target="steel">⚡ Steel</button>
+            <button type="button" class="crest-switch-btn" data-crest-target="dark">🌑 Dark</button>
+            <button type="button" class="crest-switch-btn" data-crest-target="light">☀️ Light</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE HERALDIC PILLARS -->
+    <section class="section-block">
+      <div class="section-header">
+        <span class="eyebrow-badge">Operational Mandate</span>
+        <h2>Governed by the Crest</h2>
+        <p class="lead-copy">
+          Every entity within the Sons of Harrison structure operates with specialized autonomy while adhering to three non-negotiable standards encoded in our family heraldry.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <article class="pillar-card">
+          <span class="pillar-number">PILLAR 01 // GOLD & SILVER LIONS</span>
+          <h3>Sovereign Market Leadership</h3>
+          <p>The three rampant gold lions and the silver guardian lion signify the courage to lead emerging markets and the disciplined strength required to defend multi-generational capital.</p>
+        </article>
+
+        <article class="pillar-card">
+          <span class="pillar-number">PILLAR 02 // THE MIGHTY OAK</span>
+          <h3>Generational Endurance</h3>
+          <p>Rooted in the timeless oak leaf motif, our enterprises are engineered to withstand market volatility and compound tangible value across decades rather than single financial quarters.</p>
+        </article>
+
+        <article class="pillar-card">
+          <span class="pillar-number">PILLAR 03 // PRECISION EXECUTION</span>
+          <h3>Technological & Craft Mastery</h3>
+          <p>From structural stone masonry and physical asset curation to algorithmic arbitrage and enterprise AI agents, every subsidiary deploys state-of-the-art tools and uncompromising craftsmanship.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SUBSIDIARY PORTFOLIO SPOTLIGHT -->
+    <section class="section-block" style="border-bottom: none;">
+      <div class="section-header">
+        <span class="eyebrow-badge">Subsidiary Matrix</span>
+        <h2>The Four Pillars of Harrison</h2>
+        <p class="lead-copy">
+          Toggle the site between Dark and Light mode in the header to inspect each subsidiary's theme-synchronized 9:16 vertical identity, or visit the dedicated portals directly.
+        </p>
+      </div>
+
+      <div class="brands-grid brands-grid-4">
+        <!-- Brand 1: Hardscaping -->
+        <article class="brand-card" data-collapsible-card>
+          <div class="asset-frame-9x16">
+            <img
+              src="Harrison_Hardscaping_Dark_9x16.jpg"
+              alt="Harrison Hardscaping LLC 9:16 Emblem"
+              class="theme-brand-9x16"
+              data-brand="hardscaping"
+              data-fallback-title="Harrison Hardscaping LLC"
+              data-asset-status="9:16 BRAND"
+            />
+          </div>
+          <span class="brand-domain-tag">harrisonhardscaping.com</span>
+          <h3>Harrison Hardscaping LLC</h3>
+          <div class="collapsible-content">
+            <p>Transforming outdoor environments with structural stone masonry, retaining walls, and precision architectural design.</p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+          <div class="cta-group">
+            <a href="https://harrisonhardscaping.com" target="_blank" rel="noopener" class="btn-primary">Visit Portal ↗</a>
+          </div>
+        </article>
+
+        <!-- Brand 2: Arbitrage -->
+        <article class="brand-card" data-collapsible-card>
+          <div class="asset-frame-9x16">
+            <img
+              src="Harrison_Arbitrage_Dark_9x16.jpg"
+              alt="Harrison Arbitrage LLC 9:16 Emblem"
+              class="theme-brand-9x16"
+              data-brand="arbitrage"
+              data-fallback-title="Harrison Arbitrage LLC"
+              data-asset-status="9:16 BRAND"
+            />
+          </div>
+          <span class="brand-domain-tag">harrisonarbitrage.com</span>
+          <h3>Harrison Arbitrage LLC</h3>
+          <div class="collapsible-content">
+            <p>Executing high-level quantitative market analysis, cross-exchange valuation spreads, and intelligent capital deployment.</p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+          <div class="cta-group">
+            <a href="https://harrisonarbitrage.com" target="_blank" rel="noopener" class="btn-primary">Visit Portal ↗</a>
+          </div>
+        </article>
+
+        <!-- Brand 3: Collectibles -->
+        <article class="brand-card" data-collapsible-card>
+          <div class="asset-frame-9x16">
+            <img
+              src="Harrison_Collectibles_Dark_9x16.jpg"
+              alt="Harrison Collectibles 9:16 Emblem"
+              class="theme-brand-9x16"
+              data-brand="collectibles"
+              data-fallback-title="Harrison Collectibles"
+              data-asset-status="9:16 BRAND"
+            />
+          </div>
+          <span class="brand-domain-tag">harrisoncollectibles.com</span>
+          <h3>Harrison Collectibles</h3>
+          <div class="collapsible-content">
+            <p>Curating, authenticating, and preserving rare numismatic, historical, and investment-grade physical artifacts.</p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+          <div class="cta-group">
+            <a href="https://harrisoncollectibles.com" target="_blank" rel="noopener" class="btn-primary">Visit Portal ↗</a>
+          </div>
+        </article>
+
+        <!-- Brand 4: AI Agents -->
+        <article class="brand-card" data-collapsible-card>
+          <div class="asset-frame-9x16">
+            <img
+              src="Harrison_Agents_Dark_9x16.jpg"
+              alt="Harrison AI Agents 9:16 Emblem"
+              class="theme-brand-9x16"
+              data-brand="agents"
+              data-fallback-title="Harrison AI Agents"
+              data-asset-status="9:16 BRAND"
+            />
+          </div>
+          <span class="brand-domain-tag">harrisonaiagents.com</span>
+          <h3>Harrison AI Agents</h3>
+          <div class="collapsible-content">
+            <p>Developing bespoke autonomous artificial intelligence systems and agentic workflows for modern enterprise scale.</p>
+          </div>
+          <button type="button" class="collapse-toggle-btn" aria-expanded="true">
+            <span>Collapse Details</span> <span>[−]</span>
+          </button>
+          <div class="cta-group">
+            <a href="https://harrisonaiagents.com" target="_blank" rel="noopener" class="btn-primary">Visit Portal ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- EXECUTIVE FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="brand-identity">
+        <div class="asset-frame-1x1">
+          <img
+            src="Harrison_Sons_Dark.jpg"
+            alt="Sons of Harrison Seal"
+            class="theme-brand-logo"
+            data-fallback-title="Sons of Harrison Seal"
+          />
+        </div>
+        <div class="brand-titles">
+          <span class="brand-eyebrow">Maryland, USA // 443-991-9896</span>
+          <span class="brand-name">Sons of Harrison</span>
+        </div>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="brands.html">Family Brands</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+
+      <p class="footer-copy">© 2026 Sons of Harrison. All Rights Reserved. info@sonsofharrison.com</p>
+    </div>
+  </footer>
 
 </body>
 </html>
